@@ -1,10 +1,15 @@
 import React from 'react';
 import Router from './shared/Router';
+import SelectedPokemonProvider from './context/SeletedPokemonContext';
+
 
 const App = () => {
   return (
     <div>
-      <Router />  
+      <SelectedPokemonProvider>
+        <Router />  
+      </SelectedPokemonProvider>
+ 
     </div>
   );
 };
