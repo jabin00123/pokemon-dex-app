@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route} from 'react-router-dom';
 import Home from '../pages/Home';
-import Dex from '../Pages/Dex';
-import Detail from '../Pages/Detail';
+import Dex from '../pages/Dex';
+import Detail from '../pages/Detail';
 
 
 const Router = () => {
